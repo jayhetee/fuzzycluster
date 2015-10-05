@@ -1,0 +1,56 @@
+Purchase orders given to us by organizations are often dirty. Right now we have very manual ways of cleaning up this data and matching it to products within our database. This small project is one potential solution to this problem.
+Project - Python text similarity clustering
+
+    Research metrics for determining similarities between two strings.
+    Research methods of clustering that would work well with text-based data.
+    Write a script that parses through the data file and clusters the text into distinct groups.
+        The clusters should ideally be of different products with some margin of error.
+    Extract clusters into a JSON formatted file that could be use to import the list of products through another script.
+    If there is time, you can
+        Clean up the product names in each cluster(perhaps pulling out the longest common substring for example).
+        Package this into a small Django app and visualize the results in HTML.
+
+Requirements
+
+    All code must be stored in Github and progress must be clearly tracked with commits and documented with commit messages.
+    Code should have tests included with it, aiming for 95-100% code coverage. A tool like coverage can be used to easily track this.
+    Any research should be clearly documented in the readme file. To make the documentation easy to read, you can use something like Markdown which is supported by Github.
+    Python dependencies should be clearly documented and should be installed/setup using something like virtualenv
+    Code must clearly documented and abide by python best practices. See the Python style guide (PEP8) for more info
+    Setting up and running the code (along with tests) should also be clearly documented.
+
+
+http://brandonrose.org/clustering
+
+
+
+### coverage
+## http://nedbatchelder.com/code/coverage/
+
+## Markdown
+## https://guides.github.com/features/mastering-markdown/ (post completion)
+
+## VirtualEnv - enter as administrator and then follow these steps (use prod folder)
+http://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+## Python Style Guide
+
+https://pypi.python.org/pypi/autopep8
+
+
+## General development flow
+
+https://www.reddit.com/r/Python/comments/1ia8r1/what_is_your_virtualenv_git_pip_development_flow/
+
+http://readwrite.com/2013/10/02/github-for-beginners-part-2
+
+http://nvie.com/posts/a-successful-git-branching-model/
+
+http://readwrite.com/2013/10/02/github-for-beginners-part-2
+
+plus ngrams
+
+## hierarchy
+
+http://codereview.stackexchange.com/questions/37026/string-matching-and-clustering
